@@ -1,0 +1,89 @@
+@media (min-width: 732px) and (max-width: 1200px){
+.skill-row, .profile{
+	width: 80%;
+}
+.top-cloud{
+width: 20%;
+right: 50px;
+}
+input{
+	width: 200px;
+	height: 25px;
+}
+.message{
+	max-width: 200px;
+}
+.write-post p{
+font-size: 20px;
+}
+.col-block{
+flex-basis: 23%;
+}
+.header-text{
+	font-size: 70px;
+}
+}
+
+@media screen and (max-width: 732px){
+.links-box_li{
+	display: flex;
+	padding: auto;
+}
+
+.header-text{
+	font-size: 50px;
+}
+.course{
+	flex-direction: column;
+}
+
+.col-block{
+	width: 200px;
+	margin: 10px auto 20px;
+}
+.mountain{
+width: 60%;
+position: relative;
+}
+
+.top-cloud{
+width: 20%;
+right: 50px;
+}
+
+.bottom-cloud{
+	width: 20%;
+}
+
+.write-post{
+	width: 90%;
+}
+
+.logo-img, .computer-img{
+width: 120px;
+position: relative;
+left: 34px;
+margin-bottom: 20px;
+border: 3px solid black;
+border-radius: 100px;
+}
+
+.computer-img{
+width: 120px;
+margin-bottom: 20px;
+}
+
+.skill-row{
+	box-shadow: 0 0 10px 10px lightgray;
+}
+
+.chillis-img{
+width: 140px;
+float: left;
+margin-bottom: 20px;
+margin-right: 30px;
+}
+.profile{
+	width: 50%;
+}
+}
