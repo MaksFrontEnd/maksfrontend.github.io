@@ -24,14 +24,24 @@ flex-basis: 23%;
 }
 }
 
-@media screen and (max-width: 732px){
+@media screen and (max-width: 731px){
+
+.skill-row{
+	width: 48%;
+}
+
 .links-box_li{
 	display: flex;
 	padding: auto;
 }
-
+.footer-link{
+	margin-top: 40px;
+}
 .header-text{
-	font-size: 50px;
+	font-size: 40px;
+}
+.blue-text{
+	font-size: 20px;
 }
 .course{
 	flex-direction: column;
@@ -85,5 +95,42 @@ margin-right: 30px;
 }
 .profile{
 	width: 50%;
+}
+.header-links{
+	flex-direction: column;
+	position: relative;
+	top: 0px;
+}
+
+.display{
+	display: block;
+}
+.header-col{
+	display: flex;
+	flex-direction: column;
+}
+.close-menu{
+	display: block;
+}
+.open-menu{
+	display: none;
+}
+
+.home{
+position: relative;
+right: 100px;
+}
+
+.link-message{
+position: relative;
+right: 60px;
+}
+.link-contact{
+position: relative;
+right: 10px;
+}
+.links-course{
+	position: relative;
+	left: 30px;
 }
 }
