@@ -6,34 +6,59 @@
 }
 
 body{
-	text-align: center;
+text-align: center;
 }
+
+html{
+scroll-behavior: smooth;
+}
+
 
 .header{
 	width: 100%;
+	display: flex;
+	justify-content: space-around;
 	margin: auto;
+	background: #E4F9F5;
+	position: fixed;
+	padding: 5px 5px;
+	top: 0px;
+}
+
+.display{
+	display: none;
+}
+
+.open-menu{
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.section{
+	margin-top: 100px;
 }
 
 .links-img{
 border: 2px solid black;
 width: 70px;
-height: 60px;
+height: 70px;
 border-radius: 150px;
+position: relative;
+left: 5px;
 }
 
-
 .header-links{
-	text-align: right;
-	margin: auto;
+	list-style: none;
 	display: flex;
-	justify-content: flex-end;
+	position: relative;
+	top: 27px;
 }
 
 .contact-me p{
     margin: 50px auto;
 }
 
-h1{
+.header-text{
 	font-family: "Sacramento", cursive;
 	font-size: 5rem;
 	margin-bottom: 23px auto;
@@ -137,8 +162,9 @@ h3{
 .top-cloud{
 	position: absolute;
 	right: 300px;
-	top: 50px;
+	top: 110px;
 }
+
 
 
 .links{
@@ -147,10 +173,11 @@ h3{
 }
 
 
+
 .logo-img{
 border: 2px solid black;
 width: 120px;
-height: 110px;
+height: 120px;
 margin-top: 30px;
 float: left;
 margin-right: 30px;
