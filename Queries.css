@@ -77,13 +77,12 @@ border-radius: 100px;
 .computer-img{
 width: 120px;
 margin-bottom: 20px;
-margin-right: 50px;
+
 }
 
 .skill-row{
 	box-shadow: 0 0 10px 10px lightgray;
 }
-
 .chillis-img{
 width: 100px;
 float: left;
@@ -131,5 +130,23 @@ right: 10px;
 .links-course{
 	position: relative;
 	left: 30px;
+}
+}
+
+@media screen and (max-width: 320px){
+.skill-row{
+	flex-basis: 20%;
+}
+.computer-img{
+	position: relative;
+	left: 20px;
+}
+.chillis-img{
+	position: relative;
+	left: 10px;
+}
+.logo-img{
+	position: relative;
+	left: 10px;
 }
 }
